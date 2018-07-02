@@ -1,0 +1,133 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/57ff3993f1a11fe99987c7e187d7120d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/11734a48a2b9b69541d0b71437309191/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/f7d96f2aeb16aa88137cebf78743c21f/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6e5359f7c3fabfe3d79b02da6bec5790/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/669aa3f760fc25c889813c551e2d1665/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/6b748a0eea3a8a6f3c10fabd34d5e892/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a77dd46cec47f36c8496b700029d6f92/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/283e3ffbed2291f683631e7a508c0943/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/d3fa3e0208780c11dad4eb948abdc2f3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/cf3340d79014f7191ceed8feef416ac3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/6ff6299dcc58d535178901f122e72a3f/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:2:5-27
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/57ff3993f1a11fe99987c7e187d7120d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/57ff3993f1a11fe99987c7e187d7120d/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/11734a48a2b9b69541d0b71437309191/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/11734a48a2b9b69541d0b71437309191/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/6b748a0eea3a8a6f3c10fabd34d5e892/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/6b748a0eea3a8a6f3c10fabd34d5e892/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a77dd46cec47f36c8496b700029d6f92/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a77dd46cec47f36c8496b700029d6f92/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.rncourse.MainActivity
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/57ff3993f1a11fe99987c7e187d7120d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/57ff3993f1a11fe99987c7e187d7120d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/11734a48a2b9b69541d0b71437309191/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/11734a48a2b9b69541d0b71437309191/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/f7d96f2aeb16aa88137cebf78743c21f/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/f7d96f2aeb16aa88137cebf78743c21f/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6e5359f7c3fabfe3d79b02da6bec5790/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6e5359f7c3fabfe3d79b02da6bec5790/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/669aa3f760fc25c889813c551e2d1665/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/669aa3f760fc25c889813c551e2d1665/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/6b748a0eea3a8a6f3c10fabd34d5e892/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/6b748a0eea3a8a6f3c10fabd34d5e892/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/283e3ffbed2291f683631e7a508c0943/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/283e3ffbed2291f683631e7a508c0943/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/d3fa3e0208780c11dad4eb948abdc2f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/d3fa3e0208780c11dad4eb948abdc2f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/cf3340d79014f7191ceed8feef416ac3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/cf3340d79014f7191ceed8feef416ac3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/6ff6299dcc58d535178901f122e72a3f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/6ff6299dcc58d535178901f122e72a3f/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
