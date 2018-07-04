@@ -2,7 +2,10 @@
 import React, {Component} from 'react'
 // react-native is a bunch of components that will be compiled to native code (browsers don't understnat these, and native applications don't understand <div> etc.,)
 import {StyleSheet, Text, View, TextInput, Button} from 'react-native'
+
 import ListItem from './src/components/ListItem/ListItem'
+import PlaceInput from './src/components/PlaceInput/PlaceInput'
+
 export default class App extends Component {
 state = {
   placeName: '',
@@ -33,15 +36,9 @@ state = {
     })
     return (
       <View style={styles.container}>
-        <View style={styles.inputContainer}>
-          <TextInput
-            style={styles.placeInput}
-            placeholder="An Awesome Place"
-            value={this.state.placeName}
-            onChangeText={this.placeNameChangedHandler}/>
-          <Button title="Add" style={styles.placeButton}
-            onPress={this.placeSubmitHandler} />
-        </View>
+        <PlaceInput handleChange={this.placeNameChangedHandler}
+          handleSubmit={this.placeSubmitHandler}
+          name={this.placeName} />
         <View style={styles.listContainer}>
           {placesOutput}
         </View>
@@ -57,18 +54,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'flex-start'
-  },
-  inputContainer: {
-    width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
-  },
-  placeInput: {
-    width: '70%'
-  },
-  placeButton: {
-    width: '30%'
   },
   listContainer: {
     width: '100%'
