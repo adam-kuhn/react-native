@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTView.m \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTView.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTBorderDrawing.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native/React/Modules/RCTI18nUtil.h
