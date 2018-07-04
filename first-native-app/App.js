@@ -4,22 +4,18 @@ import React, {Component} from 'react'
 import {StyleSheet, Text, View, TextInput, Button} from 'react-native'
 
 export default class App extends Component {
-  constructor () {
-    super()
-    this.state = {
-      placeName: '',
-      places: []
-    }
-    this.placeNameChangedHandler = this.placeNameChangedHandler.bind(this)
-    this.placeSubmitHandler = this.placeSubmitHandler.bind(this)
-  }
-  placeNameChangedHandler (event) {
+state = {
+  placeName: '',
+  places: []
+}
+
+  placeNameChangedHandler = (event) => {
     this.setState({
       placeName: event
     })
   }
 
-  placeSubmitHandler () {
+  placeSubmitHandler = () => {
     if (this.state.placeName.trim() === '') {
       return
     }

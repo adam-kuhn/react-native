@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "jest": "^23.2.0",
     "jest-react-native": "^18.0.0",
