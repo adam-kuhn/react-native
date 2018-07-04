@@ -1,8 +1,9 @@
 // allows to not right React.Component for extends ...
 import React, {Component} from 'react'
 // react-native is a bunch of components that will be compiled to native code (browsers don't understnat these, and native applications don't understand <div> etc.,)
-import {StyleSheet, Text, View, TextInput, Button} from 'react-native'
+import {StyleSheet, View} from 'react-native'
 
+import List from './src/components/List/List'
 import ListItem from './src/components/ListItem/ListItem'
 import PlaceInput from './src/components/PlaceInput/PlaceInput'
 
@@ -39,9 +40,7 @@ state = {
         <PlaceInput handleChange={this.placeNameChangedHandler}
           handleSubmit={this.placeSubmitHandler}
           name={this.placeName} />
-        <View style={styles.listContainer}>
-          {placesOutput}
-        </View>
+        <List listOfPlaces={placesOutput}/>
       </View>
     )
   }
@@ -54,8 +53,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'flex-start'
-  },
-  listContainer: {
-    width: '100%'
   }
 })
