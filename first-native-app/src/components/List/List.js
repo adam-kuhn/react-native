@@ -6,7 +6,8 @@ import ListItem from '../ListItem/ListItem'
 const List = (props) => {
   const placesOutput = props.listOfPlaces.map((place, i) => {
     return (
-      <ListItem key={i} placeName={place} />
+      <ListItem key={i} placeName={place}
+        onItemPress={() => props.onItemDeleted(i)} />
     )
   })
   return (

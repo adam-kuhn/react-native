@@ -28,13 +28,22 @@ state = {
       }
     })
   }
+  placeDeletedHandler = (index) => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.filter((place, i) => {
+          return i !== index
+        })
+      }
+    })
+  }
   render () {
     return (
       <View style={styles.container}>
         <PlaceInput handleChange={this.placeNameChangedHandler}
           handleSubmit={this.placeSubmitHandler}
           name={this.placeName} />
-        <List listOfPlaces={this.state.places}/>
+        <List listOfPlaces={this.state.places} onItemDeleted={this.placeDeletedHandler}/>
       </View>
     )
   }
