@@ -5,7 +5,7 @@ import {StyleSheet, View} from 'react-native'
 
 import List from './src/components/List/List'
 import PlaceInput from './src/components/PlaceInput/PlaceInput'
-import placeImage from './src/assets/cool-poke.jpg'
+// import placeImage from './src/assets/cool-poke.jpg'
 export default class App extends Component {
 state = {
   placeName: '',
@@ -28,7 +28,11 @@ state = {
           key: Math.random().toString(),
           name: prevState.placeName,
           // when image is imported it stored as a JS object that can be rendered on the app, not just a path
-          image: placeImage
+          // image: placeImage
+          image: {
+            // image address
+            uri: 'https://www.planwallpaper.com/static/images/Cool-HD-Wallpapers-1_9j9pfu8.jpg'
+          }
         })
       }
     })
