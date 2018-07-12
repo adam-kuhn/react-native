@@ -1,4 +1,4 @@
-#Mon Jul 02 18:38:24 EEST 2018
+#Thu Jul 12 15:03:41 EEST 2018
 base.0=/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 path.0=classes.dex
