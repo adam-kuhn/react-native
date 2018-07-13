@@ -94,13 +94,13 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
 
     defaultConfig {
         applicationId "com.rncourse"
         minSdkVersion 19
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         missingDimensionStrategy "RNN.reactNativeVersion", "reactNative55" // <- See note below for further instruction regarding compatibility with other React Native versions
@@ -151,6 +151,7 @@ dependencies {
     implementation "com.android.support:appcompat-v7:25.4.0"
     implementation "com.facebook.react:react-native:+"
     implementation project(':react-native-navigation')
+
 }
 
 // Run this once to be able to run the application with BUCK

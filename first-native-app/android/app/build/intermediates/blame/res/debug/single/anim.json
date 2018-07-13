@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_in.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/5a4ae14d5509b8256b8817e2afdf43d4/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/5a4ae14d5509b8256b8817e2afdf43d4/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/5a4ae14d5509b8256b8817e2afdf43d4/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/fab_scale_up.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/5397b49f974484f816bf139e4db105b5/res/anim/fab_scale_up.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/slide_up.xml",
+        "source": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native-navigation/lib/android/app/build/intermediates/packaged_res/reactNative55/debug/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/fab_slide_in_from_left.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/5397b49f974484f816bf139e4db105b5/res/anim/fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/design-26.0.1.aar/5a4ae14d5509b8256b8817e2afdf43d4/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_down.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/fab_scale_down.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/5397b49f974484f816bf139e4db105b5/res/anim/fab_scale_down.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/node_modules/react-native-navigation/lib/android/app/build/intermediates/packaged_res/reactNative55/debug/anim/slide_down.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/fab_slide_in_from_right.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/5397b49f974484f816bf139e4db105b5/res/anim/fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/fab_slide_out_to_right.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/5397b49f974484f816bf139e4db105b5/res/anim/fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/fab_slide_out_to_left.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/5397b49f974484f816bf139e4db105b5/res/anim/fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_up.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ec5fcaafe11b3ef98304159ef6fffc21/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.1.aar/f97a19b28aee1cef5178622a241a7425/res/anim/abc_slide_in_bottom.xml"
+    }
+]
