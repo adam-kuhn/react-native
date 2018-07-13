@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jul 13 12:28:16 EEST 2018
+#Fri Jul 13 16:30:18 EEST 2018
 17.baseType=DIRECTORY
 4.path=lib/x86_64/libimagepipeline.so
 25.base=/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
