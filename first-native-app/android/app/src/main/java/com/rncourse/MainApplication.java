@@ -48,19 +48,27 @@ import java.util.List;
 //     SoLoader.init(this, /* native exopackage */ false);
 //   }
 // }
-import com.reactnativenavigation.NavigationApplication;
+ import com.reactnativenavigation.NavigationApplication;
 
-public class MainApplication extends NavigationApplication {
-    @Override
-    public boolean isDebug() {
-        return BuildConfig.DEBUG;
-    }
+ public class MainApplication extends NavigationApplication {
 
-    @Override
-    public List<ReactPackage> createAdditionalReactPackages() {
-        return Arrays.<ReactPackage>asList(
-            // eg. new VectorIconsPackage()
-            new VectorIconsPackage()
-        );
-    }
-}
+     @Override
+     public boolean isDebug() {
+         // Make sure you are using BuildConfig from your own application
+         return BuildConfig.DEBUG;
+     }
+
+     protected List<ReactPackage> getPackages() {
+         // Add additional packages you require here
+         // No need to add RnnPackage and MainReactPackage
+         return Arrays.<ReactPackage>asList(
+             // eg. new VectorIconsPackage()
+             new VectorIconsPackage()
+         );
+     }
+
+     @Override
+     public List<ReactPackage> createAdditionalReactPackages() {
+         return getPackages();
+     }
+ }
