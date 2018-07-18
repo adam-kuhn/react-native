@@ -5,6 +5,7 @@ import AuthScreen from './src/screens/Auth/Auth.js'
 import SharePlaceScreen from './src/screens/MainTabs/SharePlace/SharePlace'
 import FindPlaceScreen from './src/screens/MainTabs/FindPlace/FindPlace'
 import PlaceDetailScreen from './src/screens/PlaceDetail/PlaceDetail'
+import SideDrawerScreen from './src/screens/SideDrawer/SideDrawer'
 // configureStore, is the same code from App.js
 import configureStore from './src/store/configureStore'
 
@@ -18,6 +19,7 @@ Navigation.registerComponent('awesome-places.AuthScreen', () => AuthScreen, stor
 Navigation.registerComponent('awesome-places.SharePlaceScreen', () => SharePlaceScreen, store, Provider)
 Navigation.registerComponent('awesome-places.FindPlaceScreen', () => FindPlaceScreen, store, Provider)
 Navigation.registerComponent('awesome-places.PlaceDetailScreen', () => PlaceDetailScreen, store, Provider)
+Navigation.registerComponent('awesome-places.SideDrawerScreen', () => SideDrawerScreen)
 
 // Start a App
 Navigation.startSingleScreenApp({
