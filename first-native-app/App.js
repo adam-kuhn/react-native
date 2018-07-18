@@ -1,82 +1,30 @@
-// allows to not right React.Component for extends ...
-import React, {Component} from 'react'
-import {connect} from 'react-redux'
-// react-native is a bunch of components that will be compiled to native code (browsers don't understnat these, and native applications don't understand <div> etc.,)
-import {StyleSheet, View} from 'react-native'
+import {Navigation} from 'react-native-navigation'
+import {Provider} from 'react-redux'
 
-import List from './src/components/List/List'
-import PlaceInput from './src/components/PlaceInput/PlaceInput'
-import PlaceDetail from './src/components/PlaceDetail/PlaceDetail'
-import {addPlace, deletePlace, selectPlace, deselectPlace} from './src/store/actions/index'
-// import placeImage from './src/assets/cool-poke.jpg'
-class App extends Component {
-state = {
-  placeName: '',
-  places: [],
-  selectedPlace: null
-}
+import AuthScreen from './src/screens/Auth/Auth.js'
+import SharePlaceScreen from './src/screens/MainTabs/SharePlace/SharePlace'
+import FindPlaceScreen from './src/screens/MainTabs/FindPlace/FindPlace'
+import PlaceDetailScreen from './src/screens/PlaceDetail/PlaceDetail'
+import SideDrawerScreen from './src/screens/SideDrawer/SideDrawer'
+// configureStore, is the same code from App.js
+import configureStore from './src/store/configureStore'
 
-  placeNameChangedHandler = (event) => {
-    this.setState({
-      placeName: event
-    })
-  }
+const store = configureStore()
+// Register Screens
+// naming convention is App name '.' ScreenName
+// Screens are how we navigate on react-native. Think of as pages our routes on the web
+// import all screens in this app File
+// to connect to redux pass Provider, and store to the screen. If redux is not needed don't worry about passing anything
+Navigation.registerComponent('awesome-places.AuthScreen', () => AuthScreen, store, Provider)
+Navigation.registerComponent('awesome-places.SharePlaceScreen', () => SharePlaceScreen, store, Provider)
+Navigation.registerComponent('awesome-places.FindPlaceScreen', () => FindPlaceScreen, store, Provider)
+Navigation.registerComponent('awesome-places.PlaceDetailScreen', () => PlaceDetailScreen, store, Provider)
+Navigation.registerComponent('awesome-places.SideDrawerScreen', () => SideDrawerScreen)
 
-  placeSubmitHandler = () => {
-    if (this.state.placeName.trim() === '') {
-      return
-    }
-    this.props.onAddPlace(this.state.placeName)
-  }
-  placeDeletedHandler = () => {
-    this.props.onDeletePlace()
-  }
-
-  modalClosedHandler = () => {
-    this.props.onDeselectPlace()
-  }
-  placeSelected = (key) => {
-    this.props.onSelectPlace(key)
-  }
-
-  render () {
-    return (
-      <View style={styles.container}>
-        <PlaceDetail selectedPlace={this.props.selectedPlace}
-          onItemDeleted={this.placeDeletedHandler}
-          onModalClosed={this.modalClosedHandler}/>
-        <PlaceInput handleChange={this.placeNameChangedHandler}
-          handleSubmit={this.placeSubmitHandler}
-          name={this.placeName} />
-        <List listOfPlaces={this.props.places} onItemSelected={this.placeSelected}/>
-      </View>
-    )
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 26,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'flex-start'
+// Start a App
+Navigation.startSingleScreenApp({
+  screen: {
+    screen: 'awesome-places.AuthScreen',
+    title: 'Login'
   }
 })
-
-const mapStateToProps = (state) => {
-  return {
-    places: state.places.places,
-    selectedPlace: state.places.selectedPlace
-  }
-}
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onAddPlace: (name) => dispatch(addPlace(name)),
-    onDeletePlace: () => dispatch(deletePlace()),
-    onSelectPlace: (key) => dispatch(selectPlace(key)),
-    onDeselectPlace: () => dispatch(deselectPlace())
-  }
-}
-export default connect(mapStateToProps, mapDispatchToProps)(App)

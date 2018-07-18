@@ -4,15 +4,8 @@
             "outputFile": "/Users/adamkuhn/workspace/udemy/react-native/first-native-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/57ff3993f1a11fe99987c7e187d7120d/res/values-h720dp/values-h720dp.xml",
+                    "source": "/Users/adamkuhn/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/6a0b4a17a78e58892aba0552c532ee71/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "283",
-                        "endColumns": "66",
-                        "endOffsets": "345"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

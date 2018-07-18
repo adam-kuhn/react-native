@@ -19,6 +19,7 @@
 
     <uses-sdk android:minSdkVersion="7" />
 
-    <application />
+    <application     
+        android:name=".MainApplication" />
 
 </manifest>
