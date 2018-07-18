@@ -1,17 +1,34 @@
 import React from 'react'
 import {View, TextInput, Button, StyleSheet} from 'react-native'
 
-const PlaceInput = (props) => (
-  <View style={styles.inputContainer}>
-    <TextInput
-      style={styles.placeInput}
-      placeholder="An Awesome Place"
-      value={props.name}
-      onChangeText={props.handleChange}/>
-    <Button title="Add" style={styles.placeButton}
-      onPress={props.handleSubmit} />
-  </View>
-)
+class PlaceInput extends React.Component {
+  state = {
+    placeName: ''
+  }
+
+  placeNameChangedHandler = (event) => {
+    this.setState({
+      placeName: event
+    })
+  }
+
+  placeSubmit = () => {
+    this.props.handleSubmit(this.state.placeName)
+  }
+  render () {
+    return (
+      <View style={styles.inputContainer}>
+        <TextInput
+          style={styles.placeInput}
+          placeholder="An Awesome Place"
+          value={this.state.placeName}
+          onChangeText={this.placeNameChangedHandler}/>
+        <Button title="Add" style={styles.placeButton}
+          onPress={this.placeSubmit} />
+      </View>
+    )
+  }
+}
 
 export default PlaceInput
 
