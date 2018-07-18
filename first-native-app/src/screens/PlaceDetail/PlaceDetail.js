@@ -8,6 +8,7 @@ class PlaceDetail extends Component {
   placeDeletedHandler = () => {
     this.props.onDeletePlace(this.props.selectedPlace.key)
     // navaigator.pop() is like a back button, navigate to the previous screen
+    // popToRoot() is way to navigate back through many screens to a 'home' screen
     this.props.navigator.pop()
   }
   render () {
