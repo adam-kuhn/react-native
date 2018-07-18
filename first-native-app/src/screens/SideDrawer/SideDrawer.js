@@ -5,7 +5,7 @@ class SideDrawer extends Component {
   render () {
     return (
       <View style={[styles.container, {width: Dimensions.get('window').width * 0.8}]}>
-        <Text>This is a side drawer part 2</Text>
+        <Text>This is a side drawer part 5</Text>
       </View>
     )
   }
