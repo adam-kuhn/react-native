@@ -5,8 +5,10 @@ import {connect} from 'react-redux'
 import PlaceInput from '../../../components/PlaceInput/PlaceInput'
 import {addPlace} from '../../../store/actions/index'
 class SharePlaceScreen extends Component {
+  // toggle drawer code below ---
   constructor (props) {
     super(props)
+    // navigator event listener
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent)
   }
   onNavigatorEvent = (event) => {
@@ -19,6 +21,8 @@ class SharePlaceScreen extends Component {
       }
     }
   }
+  // toggle drawer code above ^^^^
+
   placeAddedHandler = (placeName) => {
     if (placeName.trim() === '') {
       return
