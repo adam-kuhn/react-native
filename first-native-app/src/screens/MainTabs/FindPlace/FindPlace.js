@@ -4,6 +4,22 @@ import {connect} from 'react-redux'
 
 import List from '../../../components/List/List'
 class FindPlaceScreen extends Component {
+  // toggle drawer code below ---
+  constructor (props) {
+    super(props)
+    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent)
+  }
+  onNavigatorEvent = (event) => {
+    if (event.type === 'NavBarButtonPress') {
+      if (event.id === 'sideDrawerToggle') {
+        this.props.navigator.toggleDrawer({
+          // this prop is needed to avoid erros on android'
+          side: 'left'
+        })
+      }
+    }
+  }
+  // toggle drawer code above ^^^^
   itemSelectedHandler = (key) => {
     const selPlace = this.props.places.find(place => {
       return place.key === key

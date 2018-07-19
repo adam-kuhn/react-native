@@ -5,7 +5,7 @@ class SideDrawer extends Component {
   render () {
     return (
       <View style={[styles.container, {width: Dimensions.get('window').width * 0.8}]}>
-        <Text>This is a side drawer part 2</Text>
+        <Text>This is a side drawer part 5</Text>
       </View>
     )
   }
@@ -13,8 +13,9 @@ class SideDrawer extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 22,
-    backgroundColor: 'white'
+    paddingTop: 22,
+    backgroundColor: 'white',
+    flex: 1
   }
 })
 
