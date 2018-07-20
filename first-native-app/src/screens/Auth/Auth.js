@@ -12,9 +12,11 @@ class AuthScreen extends Component {
       <View style={styles.container}>
         <Text>Please Login</Text>
         <Button title="Switch to Login" />
-        <TextInput placeholder='Your Email address'/>
-        <TextInput placeholder='Password'/>
-        <TextInput placeholder='Confirm Password'/>
+        <View style={styles.inputContainer}>
+          <TextInput placeholder='Your Email address' style={styles.input}/>
+          <TextInput placeholder='Password' style={styles.input}/>
+          <TextInput placeholder='Confirm Password' style={styles.input}/>
+        </View>
         <Button title='Submit' onPress={this.loginHandler}/>
       </View>
     )
@@ -27,6 +29,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  // need to set input width otherwise it will take up smallest amount of space possible which is essentially zero
+  // careful with hardcoding values i.e width: 300, because this may be larger than some devices
+  inputContainer: {
+    width: '80%'
+  },
+  input: {
+    width: '100%'
   }
 })
 
