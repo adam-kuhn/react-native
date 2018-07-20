@@ -15,9 +15,9 @@ class AuthScreen extends Component {
         <Button title="Switch to Login" />
         <View style={styles.inputContainer}>
           {/* underlineColorAndroid=transparent gets rid of the defaul line that appears under the inputs in android */}
-          <DefaultInput placeholder='Your Email address' />
-          <DefaultInput placeholder='Password' />
-          <DefaultInput placeholder='Confirm Password' />
+          <DefaultInput placeholder='Your Email address' style={styles.input}/>
+          <DefaultInput placeholder='Password' style={styles.input} />
+          <DefaultInput placeholder='Confirm Password' style={styles.input} />
         </View>
         <Button title='Submit' onPress={this.loginHandler}/>
       </View>
@@ -36,6 +36,10 @@ const styles = StyleSheet.create({
   // careful with hardcoding values i.e width: 300, because this may be larger than some devices
   inputContainer: {
     width: '80%'
+  },
+  input: {
+    backgroundColor: '#eee',
+    borderColor: '#bbb'
   }
 })
 

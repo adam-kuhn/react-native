@@ -2,10 +2,12 @@ import React from 'react'
 import {TextInput, StyleSheet} from 'react-native'
 const defaultInput = (props) => (
   <TextInput
-    style={styles.input}
+
     underlineColorAndroid="transparent"
     // spread operator allows us to pass any prop in that is not already defined in this component. VERY COOL!
     {...props}
+    // able to accept new styles, and override defaul styles. This array must be below the {...props} to work
+    style={[styles.input, props.style]}
   />
 )
 
