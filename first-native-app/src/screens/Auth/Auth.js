@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import {View, Text, Button, TextInput, StyleSheet} from 'react-native'
+import {View, Text, Button, StyleSheet} from 'react-native'
 
+import DefaultInput from '../../components/UI/Defaultinput'
 import startMaintabs from '../MainTabs/startMainTabs'
 
 class AuthScreen extends Component {
@@ -13,9 +14,10 @@ class AuthScreen extends Component {
         <Text>Please Login</Text>
         <Button title="Switch to Login" />
         <View style={styles.inputContainer}>
-          <TextInput placeholder='Your Email address' style={styles.input}/>
-          <TextInput placeholder='Password' style={styles.input}/>
-          <TextInput placeholder='Confirm Password' style={styles.input}/>
+          {/* underlineColorAndroid=transparent gets rid of the defaul line that appears under the inputs in android */}
+          <DefaultInput placeholder='Your Email address' />
+          <DefaultInput placeholder='Password' />
+          <DefaultInput placeholder='Confirm Password' />
         </View>
         <Button title='Submit' onPress={this.loginHandler}/>
       </View>
@@ -34,9 +36,6 @@ const styles = StyleSheet.create({
   // careful with hardcoding values i.e width: 300, because this may be larger than some devices
   inputContainer: {
     width: '80%'
-  },
-  input: {
-    width: '100%'
   }
 })
 
