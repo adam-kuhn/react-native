@@ -4,7 +4,7 @@ import {View, Text, Button, StyleSheet} from 'react-native'
 import startMaintabs from '../MainTabs/startMainTabs'
 import DefaultInput from '../../components/UI/Defaultinput'
 import HeadingText from '../../components/UI/HeadingText'
-
+import MainText from '../../components/UI/MainText'
 class AuthScreen extends Component {
   loginHandler = () => {
     startMaintabs()
@@ -12,7 +12,9 @@ class AuthScreen extends Component {
   render () {
     return (
       <View style={styles.container}>
-        <HeadingText>Please Login</HeadingText>
+        <MainText>
+          <HeadingText>Please Login</HeadingText>
+        </MainText>
         <Button title="Switch to Login" />
         <View style={styles.inputContainer}>
           {/* underlineColorAndroid=transparent gets rid of the defaul line that appears under the inputs in android */}
