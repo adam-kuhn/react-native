@@ -4,7 +4,9 @@ import {View, ImageBackground, Button, StyleSheet} from 'react-native'
 import startMaintabs from '../MainTabs/startMainTabs'
 import DefaultInput from '../../components/UI/Defaultinput'
 import HeadingText from '../../components/UI/HeadingText'
+import ButtonWithBackground from '../../components/UI/ButtonWithBackground'
 import MainText from '../../components/UI/MainText'
+
 import backgroundImg from '../../assets/background.jpg'
 
 class AuthScreen extends Component {
@@ -19,14 +21,14 @@ class AuthScreen extends Component {
           <MainText>
             <HeadingText>Please Login</HeadingText>
           </MainText>
-          <Button title="Switch to Login" />
+          <ButtonWithBackground color={'#29aaf4'} onPress={() => alert('hello')}>Switch to Login</ButtonWithBackground>
           <View style={styles.inputContainer}>
             {/* underlineColorAndroid=transparent gets rid of the defaul line that appears under the inputs in android */}
             <DefaultInput placeholder='Your Email address' style={styles.input}/>
             <DefaultInput placeholder='Password' style={styles.input} />
             <DefaultInput placeholder='Confirm Password' style={styles.input} />
           </View>
-          <Button title='Submit' onPress={this.loginHandler}/>
+          <ButtonWithBackground onPress={this.loginHandler} color={'#29aaf4'}>Submit</ButtonWithBackground>
         </View>
       </ImageBackground>
     )
