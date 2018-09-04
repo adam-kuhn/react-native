@@ -7,6 +7,7 @@ const defaultInput = (props) => (
     // spread operator allows us to pass any prop in that is not already defined in this component. VERY COOL!
     {...props}
     // able to accept new styles, and merge default styles. This array must be below the {...props} to work
+    // array overrides in order
     style={[styles.input, props.style]}
   />
 )

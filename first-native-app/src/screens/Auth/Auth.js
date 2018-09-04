@@ -11,7 +11,7 @@ class AuthScreen extends Component {
   render () {
     return (
       <View style={styles.container}>
-        <Text>Please Login</Text>
+        <Text style={styles.textHeader}>Please Login</Text>
         <Button title="Switch to Login" />
         <View style={styles.inputContainer}>
           {/* underlineColorAndroid=transparent gets rid of the defaul line that appears under the inputs in android */}
@@ -40,6 +40,11 @@ const styles = StyleSheet.create({
   input: {
     backgroundColor: '#eee',
     borderColor: '#bbb'
+  },
+  // text styling can only be applied to text fields, i.e. can not be used on View
+  textHeader: {
+    fontSize: 28,
+    fontWeight: 'bold'
   }
 })
 
