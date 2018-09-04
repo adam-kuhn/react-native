@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
 import {View, Text, Button, StyleSheet} from 'react-native'
 
-import DefaultInput from '../../components/UI/Defaultinput'
 import startMaintabs from '../MainTabs/startMainTabs'
+import DefaultInput from '../../components/UI/Defaultinput'
+import HeadingText from '../../components/UI/HeadingText'
 
 class AuthScreen extends Component {
   loginHandler = () => {
@@ -11,7 +12,7 @@ class AuthScreen extends Component {
   render () {
     return (
       <View style={styles.container}>
-        <Text style={styles.textHeader}>Please Login</Text>
+        <HeadingText>Please Login</HeadingText>
         <Button title="Switch to Login" />
         <View style={styles.inputContainer}>
           {/* underlineColorAndroid=transparent gets rid of the defaul line that appears under the inputs in android */}
@@ -40,11 +41,6 @@ const styles = StyleSheet.create({
   input: {
     backgroundColor: '#eee',
     borderColor: '#bbb'
-  },
-  // text styling can only be applied to text fields, i.e. can not be used on View
-  textHeader: {
-    fontSize: 28,
-    fontWeight: 'bold'
   }
 })
 
