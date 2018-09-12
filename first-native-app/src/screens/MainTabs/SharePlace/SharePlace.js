@@ -11,6 +11,9 @@ import PlaceInput from '../../../components/PlaceInput/PlaceInput'
 import PickLocation from '../../../components/PickLocation/PickLocation'
 
 class SharePlaceScreen extends Component {
+  state = {
+    placeName: ''
+  }
   // toggle drawer code below ---
   constructor (props) {
     super(props)
@@ -29,11 +32,16 @@ class SharePlaceScreen extends Component {
   }
   // toggle drawer code above ^^^^
 
-  placeAddedHandler = (placeName) => {
-    if (placeName.trim() === '') {
-      return
+  placeAddedHandler = () => {
+    if (this.state.placeName.trim() !== '') {
+      this.props.onAddPlace(this.state.placeName)
     }
-    this.props.onAddPlace(placeName)
+  }
+
+  placeNameChangedHandler = (place) => {
+    this.setState({
+      placeName: place
+    })
   }
   render () {
     return (
@@ -44,9 +52,10 @@ class SharePlaceScreen extends Component {
           </MainText>
           <PickImage />
           <PickLocation />
-          <PlaceInput />
+          <PlaceInput placeName={this.state.placeName}
+            onChangeText={this.placeNameChangedHandler}/>
           <View style={styles.button}>
-            <Button title='Share the Place!' />
+            <Button title='Share the Place!' onPress={this.placeAddedHandler} />
           </View>
         </View>
       </ScrollView>
