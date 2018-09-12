@@ -4,10 +4,11 @@ import {View, Text, TextInput, Button, StyleSheet, ScrollView,
 import {connect} from 'react-redux'
 
 import {addPlace} from '../../../store/actions/index'
-import DefaultInput from '../../../components/UI/Defaultinput'
 import MainText from '../../../components/UI/MainText'
 import HeadingText from '../../../components/UI/HeadingText'
-import imagePreview from '../../../assets/cool-poke.jpg'
+import PickImage from '../../../components/PickImage/PickImage'
+import PlaceInput from '../../../components/PlaceInput/PlaceInput'
+import PickLocation from '../../../components/PickLocation/PickLocation'
 
 class SharePlaceScreen extends Component {
   // toggle drawer code below ---
@@ -41,19 +42,9 @@ class SharePlaceScreen extends Component {
           <MainText>
             <HeadingText>Share a place!</HeadingText>
           </MainText>
-          <View style={styles.placeHolder}>
-            <Image source={imagePreview} style={styles.previewImage}/>
-          </View>
-          <View style={styles.button}>
-            <Button title='Pick Image' />
-          </View>
-          <View style={styles.placeHolder}>
-            <Text>Map</Text>
-          </View>
-          <View style={styles.button}>
-            <Button title='Locate Me' />
-          </View>
-          <DefaultInput placeholder='Place Name' />
+          <PickImage />
+          <PickLocation />
+          <PlaceInput />
           <View style={styles.button}>
             <Button title='Share the Place!' />
           </View>
